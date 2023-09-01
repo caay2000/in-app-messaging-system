@@ -1,0 +1,13 @@
+### Create Account
+POST http://localhost:8080/account HTTP/1.1
+Content-Type: application/json
+
+{
+  "identityNumber": "E78939810",
+  "name": "monkey",
+  "surname": "glamorous teal",
+  "birthdate": "2023-07-31",
+  "email": "fine.brown@sable.net",
+  "phonePrefix": "+829",
+  "phoneNumber": "635562050"
+}
